@@ -19,6 +19,7 @@ Before we get started, we would like to set up the following file structures for
 * packages --- the folder to store 3rd party libraries
 
 We first need to check out php activerecord library from github: https://github.com/kla/php-activerecord.git 
+
 git clone https://github.com/kla/php-activerecord.git packages/php-activerecord
 
 Now we are going to write classes/Model/User.php
