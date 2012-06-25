@@ -76,4 +76,7 @@ In public/index.php, we use composer's class loader to register namespace Model 
 We then specify the phpactiverecord's main loader file location and the configuration callback function.
 Then in the user/create route, we create a random user record.
 
-We must make sure that out local mysql database has the phpactiverecords database setup.
+We must make sure that out local mysql database has the phpactiverecords database setup and with a users table which has the following fields:
+* id 
+* name
+* email
